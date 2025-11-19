@@ -4,7 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spike Surge</title>
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        iframe {
+            width: 75vw;   /* 75% of screen width */
+            height: 75vh;  /* 75% of screen height */
+            border: none;
+            border-radius: 10px;
+            background: black;
+        }
+    </style>
 </head>
 <body>
 
@@ -15,15 +48,10 @@
     <main>
         <iframe 
             src="https://scratch.mit.edu/projects/1244655456/embed" 
-            allowtransparency="true" 
-            width="363" 
-            height="301" 
-            frameborder="0" 
-            scrolling="no" 
-            >
+            allowtransparency="true"
+            allowfullscreen>
         </iframe>
     </main>
 
 </body>
 </html>
-
